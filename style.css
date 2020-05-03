@@ -13,15 +13,34 @@ body {
 
 .social_share_sidebar {
     position: fixed;
-    top: 30%;
+    top: 20%;
 
 
+}
+
+.nav2 ul li:first-child {
+    position: fixed;
+    overflow: hidden;
 }
 
 .nav1 ul {
     list-style: none;
     padding: 0;
 
+}
+
+.nav1 ul li:last-child {
+    text-align: center;
+
+    border: none;
+    
+}
+.nav1 ul li:last-child:hover {
+    
+    width: 110px;
+    transform: rotateX(360deg);
+    transition: 2s;
+    
 }
 
 .nav1 ul li {
@@ -32,7 +51,7 @@ body {
     text-align: right;
     padding: 10px;
     border-radius: 20px 20px 20px 20px;
-    transition: all 1s;
+    transition: all .7s;
 }
 
 .nav1 ul li:hover {
@@ -111,7 +130,7 @@ header {
 }
 
 .nav2 ul {
-    margin: 0;
+    margin-left: 75px;
     padding: 0;
 }
 
@@ -138,9 +157,10 @@ header {
 
 .logo img {
     float: left;
-    margin-left: 11.5%;
+    margin-left: 2.5%;
     height: 80px;
     width: 80px;
+    position: fixed;
 }
 
 
