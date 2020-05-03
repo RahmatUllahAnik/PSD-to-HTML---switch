@@ -33,14 +33,15 @@ body {
     text-align: center;
 
     border: none;
-    
+
 }
+
 .nav1 ul li:last-child:hover {
-    
+
     width: 110px;
     transform: rotateX(360deg);
     transition: 2s;
-    
+
 }
 
 .nav1 ul li {
